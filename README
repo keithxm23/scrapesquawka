@@ -1,0 +1,4 @@
+
+To import schema: cat squawka_wc_sqlite.sql | sqlite3 mydb.sqlite
+
+The ExportSQLite.grt.lua is an plugin for MySql Workbench that let's you export a model to sqlite
