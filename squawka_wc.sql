@@ -53,6 +53,10 @@ CREATE TABLE IF NOT EXISTS `mydb`.`players` (
   `weight` INT NULL,
   `height` INT NULL,
   `shirt_num` INT NULL,
+  `real_position` VARCHAR(45) NULL,
+  `player_postype` INT NULL,
+  `country` VARCHAR(45) NULL,
+  `player_profile_url` VARCHAR(200) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 

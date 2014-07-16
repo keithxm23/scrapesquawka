@@ -2,7 +2,7 @@
 -- Author:        Mascarenhas
 -- Caption:       New Model
 -- Project:       Name of the project
--- Changed:       2014-06-25 20:29
+-- Changed:       2014-07-16 18:49
 -- Created:       2014-06-18 14:27
 PRAGMA foreign_keys = OFF;
 
@@ -32,6 +32,10 @@ CREATE TABLE "players"(
   "weight" INTEGER,
   "height" INTEGER,
   "shirt_num" INTEGER,
+  "real_position" VARCHAR(45),
+  "player_postype" INTEGER,
+  "country" VARCHAR(45),
+  "player_profile_url" VARCHAR(200),
   CONSTRAINT "team_id"
     FOREIGN KEY("id")
     REFERENCES "teams"("id")
