@@ -13,7 +13,7 @@ team_id = 0
 while(True):
     file_name = "./players_data/%s.xml" % str(team_id)
     urllib.urlretrieve(BASE_URL+str(team_id), file_name) 
-    if os.path.getsize(file_name) < 100:
+    if os.path.getsize(file_name) < 1000:
         os.remove(file_name)
     else:
         found_teams+=1
