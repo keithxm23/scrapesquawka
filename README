@@ -2,3 +2,17 @@
 To import schema: cat squawka_wc_sqlite.sql | sqlite3 mydb.sqlite
 
 The ExportSQLite.grt.lua is an plugin for MySql Workbench that let's you export a model to sqlite
+
+squawka_model.mwb is the MySql Workbench model for the db
+squawka_wc.sql is the MySQL export of the model
+squawa_wc_sqlite.sql is the Sqlite-sql of the model
+
+
+players_scrape.py scrapes all 32 World Cup team squads
+players_data hold this scraped data
+players_parse.py parses this playerdata
+
+games_scrape.py scrapes all match data for all 64 World Cup games
+games_data holds this scraped data
+
+
